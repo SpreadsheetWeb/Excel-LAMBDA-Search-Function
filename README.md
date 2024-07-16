@@ -42,6 +42,21 @@
 )
 ```
 
+### Parameters
+
+- **SearchText1**: The text or value that you want to search for in the DataTable.
+- **DataTable**: The data table to be searched.
+- **SearchColumn**: The column number in the DataTable where the search will be performed.
+- **ReturnColumns**: The column numbers in the DataTable from which the data should be returned.
+- **NotFoundText**: The text that should be returned if no match is found.
+- **ErrorText**: The text that should be returned if there is an error in the search parameters or execution.
+
+**Syntax**
+  
+```excel
+=CustomSearch(String/Num; Range/Array; Num; Num_Array; String; String)
+```
+
 ## How to Create and Use the CustomSearch Function
 
 ### Step 1: Define the CustomSearch Function
